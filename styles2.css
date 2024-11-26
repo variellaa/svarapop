@@ -1,0 +1,74 @@
+/* Gaya dasar */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #4A4A4A;
+    background-color: #FDF6F0; /* Warna pastel lembut */
+    text-align: center;
+}
+
+/* Bagian Hero - Grab Your Ticket */
+.hero {
+    background: url('background-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    padding: 50px 20px;
+    color: #FFB3C6; /* Warna pastel merah muda */
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero .button {
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    color: white;
+    background-color: #FFD9A0; /* Warna pastel oranye */
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.hero .button:hover {
+    background-color: #FFAF87; /* Warna pastel oranye lebih gelap */
+}
+
+/* Bagian Contact Us */
+.contact-section {
+    background-color: #FCE4EC; /* Warna pastel merah muda terang */
+    padding: 30px 20px;
+}
+
+.contact-section h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #FFB3C6;
+}
+
+.contact-section p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.contact-section .email {
+    color: #FFAF87; /* Warna pastel oranye lembut */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-section .email:hover {
+    text-decoration: underline;
+}
+
+.contact-section .whatsapp img {
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    transition: transform 0.3s ease;
+}
+
+.contact-section .whatsapp img:hover {
+    transform: scale(1.1);
+}
